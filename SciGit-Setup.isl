@@ -1865,7 +1865,7 @@
 		<row><td>INDIAN</td><td>TZDATA</td><td>Indian</td><td/><td>0</td><td/></row>
 		<row><td>INDIANA</td><td>AMERICA</td><td>Indiana</td><td/><td>0</td><td/></row>
 		<row><td>INFO</td><td>TEMPLATES</td><td>info</td><td/><td>0</td><td/></row>
-		<row><td>INSTALLDIR</td><td>SCIGIT1</td><td>.</td><td/><td>0</td><td/></row>
+		<row><td>INSTALLDIR</td><td>SCIGIT</td><td>.</td><td/><td>0</td><td/></row>
 		<row><td>IO</td><td>_.8.8</td><td>IO</td><td/><td>0</td><td/></row>
 		<row><td>IO1</td><td>AUTO1</td><td>IO</td><td/><td>0</td><td/></row>
 		<row><td>IO2</td><td>MSYS</td><td>IO</td><td/><td>0</td><td/></row>
@@ -9435,7 +9435,7 @@
 		<row><td>IDS__TargetReq_DESC_RAM</td><td>1033</td><td>The amount of RAM is not adequate for running [ProductName].</td><td>0</td><td/><td>1956672375</td></row>
 		<row><td>IDS__TargetReq_DESC_RESOLUTION</td><td>1033</td><td>The screen resolution is not adequate for running [ProductName].</td><td>0</td><td/><td>1956672375</td></row>
 		<row><td>ID_STRING1</td><td>1033</td><td>http://www.SciGit.com</td><td>0</td><td/><td>1956684695</td></row>
-		<row><td>ID_STRING2</td><td>1033</td><td>SciGit</td><td>0</td><td/><td>1956684695</td></row>
+		<row><td>ID_STRING2</td><td>1033</td><td>SciGit</td><td>0</td><td/><td>2090874624</td></row>
 		<row><td>ID_STRING3</td><td>1033</td><td>LAUNCH~1.EXE|Launch SciGit-Client.exe</td><td>0</td><td/><td>1956678775</td></row>
 		<row><td>IIDS_UITEXT_FeatureUninstalled</td><td>1033</td><td>This feature will remain uninstalled.</td><td>0</td><td/><td>1956672375</td></row>
 	</table>
@@ -9684,7 +9684,7 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>ISTheme</td><td>InstallShield Blue.theme</td></row>
 		<row><td>ISUSLock</td><td>{4DAB89E6-63D5-49E5-B066-47572B8E50E4}</td></row>
 		<row><td>ISUSSignature</td><td>{44D8C22D-BCF8-4F59-AF64-1FDACFF7B771}</td></row>
-		<row><td>ISVisitedViews</td><td>viewAssistant,viewISToday,viewRegistry,viewUI,viewTextMessages</td></row>
+		<row><td>ISVisitedViews</td><td>viewAssistant,viewISToday,viewRegistry,viewUI,viewTextMessages,viewProject</td></row>
 		<row><td>Limited</td><td>1</td></row>
 		<row><td>LockPermissionMode</td><td>1</td></row>
 		<row><td>MsiExecCmdLineOptions</td><td/></row>
