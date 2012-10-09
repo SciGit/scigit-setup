@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{6141683F-8A12-4E36-9623-2EB02B2C2303}") = "SciGit-Setup", "SciGit-Setup.isproj", "{1C5AFDA3-F6BF-4292-825F-5ED6BFBE0E21}"
+Project("{6141683F-8A12-4E36-9623-2EB02B2C2303}") = "SciGit-Setup", "SciGit-Setup.isproj", "{BED6EA6D-C04F-4AFC-99AC-412D9DABC89E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -10,12 +10,12 @@ Global
 		SingleImage|Default = SingleImage|Default
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1C5AFDA3-F6BF-4292-825F-5ED6BFBE0E21}.CD_ROM|Default.ActiveCfg = CD_ROM
-		{1C5AFDA3-F6BF-4292-825F-5ED6BFBE0E21}.CD_ROM|Default.Build.0 = CD_ROM
-		{1C5AFDA3-F6BF-4292-825F-5ED6BFBE0E21}.DVD-5|Default.ActiveCfg = DVD-5
-		{1C5AFDA3-F6BF-4292-825F-5ED6BFBE0E21}.DVD-5|Default.Build.0 = DVD-5
-		{1C5AFDA3-F6BF-4292-825F-5ED6BFBE0E21}.SingleImage|Default.ActiveCfg = SingleImage
-		{1C5AFDA3-F6BF-4292-825F-5ED6BFBE0E21}.SingleImage|Default.Build.0 = SingleImage
+		{BED6EA6D-C04F-4AFC-99AC-412D9DABC89E}.CD_ROM|Default.ActiveCfg = CD_ROM
+		{BED6EA6D-C04F-4AFC-99AC-412D9DABC89E}.CD_ROM|Default.Build.0 = CD_ROM
+		{BED6EA6D-C04F-4AFC-99AC-412D9DABC89E}.DVD-5|Default.ActiveCfg = DVD-5
+		{BED6EA6D-C04F-4AFC-99AC-412D9DABC89E}.DVD-5|Default.Build.0 = DVD-5
+		{BED6EA6D-C04F-4AFC-99AC-412D9DABC89E}.SingleImage|Default.ActiveCfg = SingleImage
+		{BED6EA6D-C04F-4AFC-99AC-412D9DABC89E}.SingleImage|Default.Build.0 = SingleImage
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
