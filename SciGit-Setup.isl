@@ -267,7 +267,7 @@
 		<row><td>NewBinary2</td><td/><td>&lt;ISProductFolder&gt;\Redist\Language Independent\OS Independent\New.ibd</td></row>
 		<row><td>NewBinary20</td><td/><td>&lt;ISProductFolder&gt;\Redist\Language Independent\OS Independent\IsDialogBitmap.ibd</td></row>
 		<row><td>NewBinary21</td><td/><td>&lt;ISProductFolder&gt;\Redist\Language Independent\OS Independent\IsDialogBanner.ibd</td></row>
-		<row><td>NewBinary22</td><td/><td>C:\Users\Hanson\Documents\GitHub\scigit-setup\rm.exe</td></row>
+		<row><td>NewBinary22</td><td/><td>C:\Users\Hanson\Documents\GitHub\scigit-setup\DeleteLibraries\bin\Release\DeleteLibraries.exe</td></row>
 		<row><td>NewBinary3</td><td/><td>&lt;ISProductFolder&gt;\Redist\Language Independent\OS Independent\Up.ibd</td></row>
 		<row><td>NewBinary4</td><td/><td>&lt;ISProductFolder&gt;\Redist\Language Independent\OS Independent\WarningIcon.ibd</td></row>
 		<row><td>NewBinary5</td><td/><td>&lt;ISProductFolder&gt;\Support\Themes\InstallShield Blue Theme\welcome.jpg</td></row>
@@ -1072,7 +1072,7 @@
 		<col def="S0">Target</col>
 		<col def="I4">ExtendedType</col>
 		<col def="S255">ISComments</col>
-		<row><td>DeleteLibraries</td><td>3138</td><td>NewBinary22</td><td>-rf "[INSTALLDIR]Libraries"</td><td/><td/></row>
+		<row><td>DeleteLibraries</td><td>3138</td><td>NewBinary22</td><td>"[INSTALLDIR]\"</td><td/><td/></row>
 		<row><td>ExtractLibraries</td><td>3074</td><td>NewBinary1</td><td>-o"[INSTALLDIR]" -y</td><td/><td/></row>
 		<row><td>ISPreventDowngrade</td><td>19</td><td/><td>[IS_PREVENT_DOWNGRADE_EXIT]</td><td/><td>Exits install when a newer version of this product is found</td></row>
 		<row><td>ISPrint</td><td>1</td><td>SetAllUsers.dll</td><td>PrintScrollableText</td><td/><td>Prints the contents of a ScrollableText control on a dialog.</td></row>

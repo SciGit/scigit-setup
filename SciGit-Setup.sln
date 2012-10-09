@@ -3,19 +3,37 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{6141683F-8A12-4E36-9623-2EB02B2C2303}") = "SciGit-Setup", "SciGit-Setup.isproj", "{BED6EA6D-C04F-4AFC-99AC-412D9DABC89E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeleteLibraries", "DeleteLibraries\DeleteLibraries.csproj", "{720AADD8-4E82-4642-9542-C96DE12F7920}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		CD_ROM|Default = CD_ROM|Default
-		DVD-5|Default = DVD-5|Default
-		SingleImage|Default = SingleImage|Default
+		CD_ROM|x86 = CD_ROM|x86
+		Debug|x86 = Debug|x86
+		DVD-5|x86 = DVD-5|x86
+		Release|x86 = Release|x86
+		SingleImage|x86 = SingleImage|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{BED6EA6D-C04F-4AFC-99AC-412D9DABC89E}.CD_ROM|Default.ActiveCfg = CD_ROM
-		{BED6EA6D-C04F-4AFC-99AC-412D9DABC89E}.CD_ROM|Default.Build.0 = CD_ROM
-		{BED6EA6D-C04F-4AFC-99AC-412D9DABC89E}.DVD-5|Default.ActiveCfg = DVD-5
-		{BED6EA6D-C04F-4AFC-99AC-412D9DABC89E}.DVD-5|Default.Build.0 = DVD-5
-		{BED6EA6D-C04F-4AFC-99AC-412D9DABC89E}.SingleImage|Default.ActiveCfg = SingleImage
-		{BED6EA6D-C04F-4AFC-99AC-412D9DABC89E}.SingleImage|Default.Build.0 = SingleImage
+		{BED6EA6D-C04F-4AFC-99AC-412D9DABC89E}.CD_ROM|x86.ActiveCfg = CD_ROM
+		{BED6EA6D-C04F-4AFC-99AC-412D9DABC89E}.CD_ROM|x86.Build.0 = CD_ROM
+		{BED6EA6D-C04F-4AFC-99AC-412D9DABC89E}.Debug|x86.ActiveCfg = DVD-5
+		{BED6EA6D-C04F-4AFC-99AC-412D9DABC89E}.Debug|x86.Build.0 = DVD-5
+		{BED6EA6D-C04F-4AFC-99AC-412D9DABC89E}.DVD-5|x86.ActiveCfg = DVD-5
+		{BED6EA6D-C04F-4AFC-99AC-412D9DABC89E}.DVD-5|x86.Build.0 = DVD-5
+		{BED6EA6D-C04F-4AFC-99AC-412D9DABC89E}.Release|x86.ActiveCfg = SingleImage
+		{BED6EA6D-C04F-4AFC-99AC-412D9DABC89E}.Release|x86.Build.0 = SingleImage
+		{BED6EA6D-C04F-4AFC-99AC-412D9DABC89E}.SingleImage|x86.ActiveCfg = SingleImage
+		{BED6EA6D-C04F-4AFC-99AC-412D9DABC89E}.SingleImage|x86.Build.0 = SingleImage
+		{720AADD8-4E82-4642-9542-C96DE12F7920}.CD_ROM|x86.ActiveCfg = Release|x86
+		{720AADD8-4E82-4642-9542-C96DE12F7920}.CD_ROM|x86.Build.0 = Release|x86
+		{720AADD8-4E82-4642-9542-C96DE12F7920}.Debug|x86.ActiveCfg = Debug|x86
+		{720AADD8-4E82-4642-9542-C96DE12F7920}.Debug|x86.Build.0 = Debug|x86
+		{720AADD8-4E82-4642-9542-C96DE12F7920}.DVD-5|x86.ActiveCfg = Debug|x86
+		{720AADD8-4E82-4642-9542-C96DE12F7920}.DVD-5|x86.Build.0 = Debug|x86
+		{720AADD8-4E82-4642-9542-C96DE12F7920}.Release|x86.ActiveCfg = Release|x86
+		{720AADD8-4E82-4642-9542-C96DE12F7920}.Release|x86.Build.0 = Release|x86
+		{720AADD8-4E82-4642-9542-C96DE12F7920}.SingleImage|x86.ActiveCfg = Release|x86
+		{720AADD8-4E82-4642-9542-C96DE12F7920}.SingleImage|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
