@@ -267,6 +267,7 @@
 		<row><td>NewBinary2</td><td/><td>&lt;ISProductFolder&gt;\Redist\Language Independent\OS Independent\New.ibd</td></row>
 		<row><td>NewBinary20</td><td/><td>&lt;ISProductFolder&gt;\Redist\Language Independent\OS Independent\IsDialogBitmap.ibd</td></row>
 		<row><td>NewBinary21</td><td/><td>&lt;ISProductFolder&gt;\Redist\Language Independent\OS Independent\IsDialogBanner.ibd</td></row>
+		<row><td>NewBinary22</td><td/><td>C:\Users\Hanson\Documents\GitHub\scigit-setup\rm.exe</td></row>
 		<row><td>NewBinary3</td><td/><td>&lt;ISProductFolder&gt;\Redist\Language Independent\OS Independent\Up.ibd</td></row>
 		<row><td>NewBinary4</td><td/><td>&lt;ISProductFolder&gt;\Redist\Language Independent\OS Independent\WarningIcon.ibd</td></row>
 		<row><td>NewBinary5</td><td/><td>&lt;ISProductFolder&gt;\Support\Themes\InstallShield Blue Theme\welcome.jpg</td></row>
@@ -346,7 +347,6 @@
 		<row><td>DiffPlex.dll</td><td>{7E3168BE-13AC-4610-B85C-B032650EE09B}</td><td>INSTALLDIR</td><td>2</td><td/><td>diffplex.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISX_DEFAULTCOMPONENT</td><td>{58F37D45-8F3B-4637-B206-8B17BD2ADE10}</td><td>INSTALLDIR</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISX_DEFAULTCOMPONENT1</td><td>{07BA55AA-1D68-4A96-9C8C-8DC0E3A5C736}</td><td>ProgramFilesFolder</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>ISX_DEFAULTCOMPONENT2</td><td>{2D065794-59FC-4423-A70B-29B67C189BB9}</td><td>LIBRARIES</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>SciGit_Client.exe</td><td>{639E4194-8E6D-43CD-BE73-53BA966281F6}</td><td>INSTALLDIR</td><td>2</td><td/><td>scigit_client.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>SciGit_Filter.dll</td><td>{A6384237-E608-4936-8773-8C43A09648C8}</td><td>INSTALLDIR</td><td>2</td><td/><td>scigit_filter.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>log4net.dll</td><td>{1EECB160-B88A-4E2B-BDF8-832A9E7AB08D}</td><td>INSTALLDIR</td><td>2</td><td/><td>log4net.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
@@ -1062,7 +1062,6 @@
 		<col key="yes" def="s72">Directory_</col>
 		<col key="yes" def="s72">Component_</col>
 		<row><td>INSTALLDIR</td><td>ISX_DEFAULTCOMPONENT</td></row>
-		<row><td>LIBRARIES</td><td>ISX_DEFAULTCOMPONENT2</td></row>
 		<row><td>ProgramFilesFolder</td><td>ISX_DEFAULTCOMPONENT1</td></row>
 	</table>
 
@@ -1073,6 +1072,8 @@
 		<col def="S0">Target</col>
 		<col def="I4">ExtendedType</col>
 		<col def="S255">ISComments</col>
+		<row><td>DeleteLibraries</td><td>3138</td><td>NewBinary22</td><td>-rf "[INSTALLDIR]Libraries"</td><td/><td/></row>
+		<row><td>ExtractLibraries</td><td>3074</td><td>NewBinary1</td><td>-o"[INSTALLDIR]" -y</td><td/><td/></row>
 		<row><td>ISPreventDowngrade</td><td>19</td><td/><td>[IS_PREVENT_DOWNGRADE_EXIT]</td><td/><td>Exits install when a newer version of this product is found</td></row>
 		<row><td>ISPrint</td><td>1</td><td>SetAllUsers.dll</td><td>PrintScrollableText</td><td/><td>Prints the contents of a ScrollableText control on a dialog.</td></row>
 		<row><td>ISRunSetupTypeAddLocalEvent</td><td>1</td><td>ISExpHlp.dll</td><td>RunSetupTypeAddLocalEvent</td><td/><td>Run the AddLocal events associated with the Next button on the Setup Type dialog.</td></row>
@@ -1082,7 +1083,6 @@
 		<row><td>ISSetAllUsers</td><td>257</td><td>SetAllUsers.dll</td><td>SetAllUsers</td><td/><td/></row>
 		<row><td>ISUnSelfRegisterFiles</td><td>3073</td><td>ISSELFREG.DLL</td><td>ISUnSelfRegisterFiles</td><td/><td/></row>
 		<row><td>LaunchProgramFileFromSetupCompleteSuccess</td><td>1</td><td>NewBinary19</td><td>LaunchProgram</td><td/><td/></row>
-		<row><td>NewCustomAction1</td><td>3138</td><td>NewBinary1</td><td>-o"[INSTALLDIR]" -y</td><td/><td/></row>
 		<row><td>SetARPINSTALLLOCATION</td><td>51</td><td>ARPINSTALLLOCATION</td><td>[INSTALLDIR]</td><td/><td/></row>
 		<row><td>SetAllUsersProfileNT</td><td>51</td><td>ALLUSERSPROFILE</td><td>[%SystemRoot]\Profiles\All Users</td><td/><td/></row>
 		<row><td>ShowMsiLog</td><td>226</td><td>SystemFolder</td><td>[SystemFolder]notepad.exe "[MsiLogFileLocation]"</td><td/><td>Shows Property-driven MSI Log</td></row>
@@ -1151,6 +1151,9 @@
 		<row><td>CommonAppDataFolder</td><td>TARGETDIR</td><td>.:Common~1|CommonAppData</td><td/><td>0</td><td/></row>
 		<row><td>CommonFilesFolder</td><td>TARGETDIR</td><td>.:Common</td><td/><td>0</td><td/></row>
 		<row><td>DATABASEDIR</td><td>ISYourDataBaseDir</td><td>.</td><td/><td>0</td><td/></row>
+		<row><td>DIRPROPERTY1</td><td>TARGETDIR</td><td>.</td><td/><td>0</td><td/></row>
+		<row><td>DIRPROPERTY2</td><td>TARGETDIR</td><td>.</td><td/><td>0</td><td/></row>
+		<row><td>DIRPROPERTY3</td><td>TARGETDIR</td><td>.</td><td/><td>0</td><td/></row>
 		<row><td>DesktopFolder</td><td>TARGETDIR</td><td>.:Desktop</td><td/><td>3</td><td/></row>
 		<row><td>FavoritesFolder</td><td>TARGETDIR</td><td>.:FAVORI~1|Favorites</td><td/><td>0</td><td/></row>
 		<row><td>FontsFolder</td><td>TARGETDIR</td><td>.:Fonts</td><td/><td>0</td><td/></row>
@@ -1160,12 +1163,12 @@
 		<row><td>ISMyCompanyDir</td><td>ProgramFilesFolder</td><td>MYCOMP~1|My Company Name</td><td/><td>0</td><td/></row>
 		<row><td>ISMyProductDir</td><td>ISMyCompanyDir</td><td>MYPROD~1|My Product Name</td><td/><td>0</td><td/></row>
 		<row><td>ISYourDataBaseDir</td><td>INSTALLDIR</td><td>Database</td><td/><td>0</td><td/></row>
-		<row><td>LIBRARIES</td><td>INSTALLDIR</td><td>LIBRAR~1|Libraries</td><td/><td>0</td><td/></row>
 		<row><td>LocalAppDataFolder</td><td>TARGETDIR</td><td>.:LocalA~1|LocalAppData</td><td/><td>0</td><td/></row>
 		<row><td>MICROSOFT</td><td>ProgramFilesFolder</td><td>MICROS~1|Microsoft</td><td/><td>0</td><td/></row>
 		<row><td>MY_PRODUCT_NAME</td><td>MICROSOFT</td><td>MYPROD~1|My Product Name</td><td/><td>0</td><td/></row>
 		<row><td>MY_PRODUCT_NAME1</td><td>SCIGIT</td><td>MYPROD~1|My Product Name</td><td/><td>0</td><td/></row>
 		<row><td>MyPicturesFolder</td><td>TARGETDIR</td><td>.:MyPict~1|MyPictures</td><td/><td>0</td><td/></row>
+		<row><td>NEW_DIRECTORY1</td><td>TARGETDIR</td><td>NEW_DIRECTORY1</td><td/><td>0</td><td/></row>
 		<row><td>NetHoodFolder</td><td>TARGETDIR</td><td>.:NetHood</td><td/><td>0</td><td/></row>
 		<row><td>PersonalFolder</td><td>TARGETDIR</td><td>.:Personal</td><td/><td>0</td><td/></row>
 		<row><td>PrimaryVolumePath</td><td>TARGETDIR</td><td>.:Primar~1|PrimaryVolumePath</td><td/><td>0</td><td/></row>
@@ -1881,7 +1884,6 @@
 		<row><td>AlwaysInstall</td><td>DiffPlex.dll</td></row>
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT</td></row>
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT1</td></row>
-		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT2</td></row>
 		<row><td>AlwaysInstall</td><td>SciGit_Client.exe</td></row>
 		<row><td>AlwaysInstall</td><td>SciGit_Filter.dll</td></row>
 		<row><td>AlwaysInstall</td><td>log4net.dll</td></row>
@@ -2163,7 +2165,6 @@
 		<row><td>DiffPlex.dll</td><td/><td/><td>_79BB87F5_BBF8_4781_95D7_6B791265B7DA_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT</td><td/><td/><td>_18DE97B7_D227_4124_84F8_CB3677E41B34_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT1</td><td/><td/><td>_8DFBB8C2_809B_47DB_B86F_2104E2199D90_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>ISX_DEFAULTCOMPONENT2</td><td/><td/><td>_A5302297_E43C_44C9_8AB5_FAE26B7539B8_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>SciGit_Client.exe</td><td/><td/><td>_05BE5A9A_279D_4F29_8E89_A57C0863A249_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>SciGit_Filter.dll</td><td/><td/><td>_C7000B22_36AB_43F6_AE75_E2835CE0E5B0_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>log4net.dll</td><td/><td/><td>_01F15F33_E03C_4F68_B07E_CECBDD65953A_FILTER</td><td/><td/><td/><td/></row>
@@ -4267,8 +4268,10 @@
 		<row><td>CostInitialize</td><td/><td>800</td><td>CostInitialize</td><td/></row>
 		<row><td>CreateFolders</td><td/><td>3700</td><td>CreateFolders</td><td/></row>
 		<row><td>CreateShortcuts</td><td/><td>4500</td><td>CreateShortcuts</td><td/></row>
+		<row><td>DeleteLibraries</td><td>REMOVE="ALL"</td><td>6403</td><td/><td/></row>
 		<row><td>DeleteServices</td><td>VersionNT</td><td>2000</td><td>DeleteServices</td><td/></row>
 		<row><td>DuplicateFiles</td><td/><td>4210</td><td>DuplicateFiles</td><td/></row>
+		<row><td>ExtractLibraries</td><td>Not Installed</td><td>6405</td><td/><td/></row>
 		<row><td>FileCost</td><td/><td>900</td><td>FileCost</td><td/></row>
 		<row><td>FindRelatedProducts</td><td>NOT ISSETUPDRIVEN</td><td>420</td><td>FindRelatedProducts</td><td/></row>
 		<row><td>ISPreventDowngrade</td><td>ISFOUNDNEWERPRODUCTVERSION</td><td>450</td><td>ISPreventDowngrade</td><td/></row>
@@ -4291,7 +4294,6 @@
 		<row><td>MsiConfigureServices</td><td>VersionMsi &gt;= "5.00"</td><td>5850</td><td>MSI5 MsiConfigureServices</td><td/></row>
 		<row><td>MsiPublishAssemblies</td><td/><td>6250</td><td>MsiPublishAssemblies</td><td/></row>
 		<row><td>MsiUnpublishAssemblies</td><td/><td>1750</td><td>MsiUnpublishAssemblies</td><td/></row>
-		<row><td>NewCustomAction1</td><td>Not Installed</td><td>6405</td><td/><td/></row>
 		<row><td>PatchFiles</td><td/><td>4090</td><td>PatchFiles</td><td/></row>
 		<row><td>ProcessComponents</td><td/><td>1600</td><td>ProcessComponents</td><td/></row>
 		<row><td>PublishComponents</td><td/><td>6200</td><td>PublishComponents</td><td/></row>
@@ -4365,7 +4367,7 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>ISTheme</td><td>Classic.theme</td></row>
 		<row><td>ISUSLock</td><td>{4DAB89E6-63D5-49E5-B066-47572B8E50E4}</td></row>
 		<row><td>ISUSSignature</td><td>{44D8C22D-BCF8-4F59-AF64-1FDACFF7B771}</td></row>
-		<row><td>ISVisitedViews</td><td>viewAssistant,viewISToday,viewRegistry,viewUI,viewTextMessages,viewProject,viewAppFiles,viewObjects,viewFeatureFiles,viewRealSetupDesign,viewShortcuts,viewBillboards,viewSystemSearch,viewInstallScriptStd,viewSupportFiles,viewRelease,viewDesignPatches,viewUpgradePaths,viewUpdateService,viewDependencies,viewCustomActions,viewEnvironmentVariables,viewIniFiles</td></row>
+		<row><td>ISVisitedViews</td><td>viewAssistant,viewISToday,viewRegistry,viewUI,viewTextMessages,viewProject,viewAppFiles,viewObjects,viewFeatureFiles,viewRealSetupDesign,viewShortcuts,viewBillboards,viewSystemSearch,viewInstallScriptStd,viewSupportFiles,viewRelease,viewDesignPatches,viewUpgradePaths,viewUpdateService,viewDependencies,viewCustomActions,viewEnvironmentVariables,viewIniFiles,viewAppV,viewSQLServer</td></row>
 		<row><td>Limited</td><td>1</td></row>
 		<row><td>LockPermissionMode</td><td>1</td></row>
 		<row><td>MsiExecCmdLineOptions</td><td/></row>
@@ -4679,6 +4681,9 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>ARPURLINFOABOUT</td><td>##ID_STRING1##</td><td/></row>
 		<row><td>AgreeToLicense</td><td>No</td><td/></row>
 		<row><td>ApplicationUsers</td><td>AllUsers</td><td/></row>
+		<row><td>DIRPROPERTY1</td><td>del.exe</td><td/></row>
+		<row><td>DIRPROPERTY2</td><td>rmdir.exe</td><td/></row>
+		<row><td>DIRPROPERTY3</td><td>rmdir</td><td/></row>
 		<row><td>DWUSINTERVAL</td><td>30</td><td/></row>
 		<row><td>DWUSLINK</td><td>CEAC90DF691B27F8E9ACD088EE7C978F39AB578FFECB97AFCEFC8098A9BBD768E9DBE7A89EAC</td><td/></row>
 		<row><td>DefaultUIFont</td><td>ExpressDefault</td><td/></row>
