@@ -4820,7 +4820,7 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<col def="S0">Value</col>
 		<col def="s72">Component_</col>
 		<col def="I4">ISAttributes</col>
-		<row><td>Registry1</td><td>1</td><td>Software\Microsoft\Windows\CurrentVersion\Run</td><td>SciGit</td><td>"[INSTALLDIR]SciGit-Client.exe"</td><td>ISX_DEFAULTCOMPONENT</td><td>0</td></row>
+		<row><td>Registry1</td><td>1</td><td>Software\Microsoft\Windows\CurrentVersion\Run</td><td>SciGit</td><td>"[INSTALLDIR]SciGit-Client.exe" -autologin</td><td>ISX_DEFAULTCOMPONENT</td><td>0</td></row>
 		<row><td>_0161B59390864BA7645E8F77F89502A7</td><td>0</td><td>Directory\shell\scigit</td><td>MUIVerb</td><td>SciGit</td><td>ISX_DEFAULTCOMPONENT</td><td/></row>
 		<row><td>_09452E9D0EE9FE04F81A53EBC94BDA8F</td><td>0</td><td>*\shell\scigit\shell\versions</td><td>CommandFlags</td><td>#32</td><td>ISX_DEFAULTCOMPONENT</td><td/></row>
 		<row><td>_1086EE86B7D58CBE36BF43DBB434AC6D</td><td>0</td><td>*\shell\scigit\shell\upload</td><td>MUIVerb</td><td>Upload project changes...</td><td>ISX_DEFAULTCOMPONENT</td><td/></row>
