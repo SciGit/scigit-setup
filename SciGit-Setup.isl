@@ -4831,7 +4831,7 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>_09452E9D0EE9FE04F81A53EBC94BDA8F</td><td>0</td><td>*\shell\scigit\shell\versions</td><td>CommandFlags</td><td>#32</td><td>ISX_DEFAULTCOMPONENT</td><td/></row>
 		<row><td>_1086EE86B7D58CBE36BF43DBB434AC6D</td><td>0</td><td>*\shell\scigit\shell\upload</td><td>MUIVerb</td><td>Upload project changes...</td><td>ISX_DEFAULTCOMPONENT</td><td/></row>
 		<row><td>_2BE338522BE7847A988DA683820EBFC4</td><td>0</td><td>*\shell\scigit\shell\upload\command</td><td/><td>#%"[INSTALLDIR]SciGit-Client.exe" --upload "%1"</td><td>ISX_DEFAULTCOMPONENT</td><td/></row>
-		<row><td>_33CCD7187159DBB3ABD3B730D9A4B2B1</td><td>0</td><td>*\shell\scigit\shell\revert</td><td>MUIVerb</td><td>Revert project...</td><td>ISX_DEFAULTCOMPONENT</td><td/></row>
+		<row><td>_33CCD7187159DBB3ABD3B730D9A4B2B1</td><td>0</td><td>*\shell\scigit\shell\phistory</td><td>MUIVerb</td><td>Show project history...</td><td>ISX_DEFAULTCOMPONENT</td><td/></row>
 		<row><td>_3D333EC0BEA8BE67B12013546A4CEFD1</td><td>0</td><td>Directory\shell\scigit</td><td>SubCommands</td><td/><td>ISX_DEFAULTCOMPONENT</td><td/></row>
 		<row><td>_5DE8A2E4C4F90106307F8846506796B5</td><td>0</td><td>*\shell\scigit\shell\update\command</td><td/><td>#%"[INSTALLDIR]SciGit-Client.exe" --update "%1"</td><td>ISX_DEFAULTCOMPONENT</td><td/></row>
 		<row><td>_5FEA4C5926F635C76B55780EE0556A38</td><td>0</td><td>Directory\shell\scigit\shell\upload</td><td>MUIVerb</td><td>Upload project changes...</td><td>ISX_DEFAULTCOMPONENT</td><td/></row>
@@ -4843,11 +4843,11 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>_86FE161C03150822CF47AE95C90F2B07</td><td>0</td><td>Directory\shell\scigit\shell\upload\command</td><td/><td>#%"[INSTALLDIR]SciGit-Client.exe" --upload "%1"</td><td>ISX_DEFAULTCOMPONENT</td><td/></row>
 		<row><td>_88381B38771679D43004543C5A869651</td><td>0</td><td>*\shell\scigit</td><td>MUIVerb</td><td>SciGit</td><td>ISX_DEFAULTCOMPONENT</td><td/></row>
 		<row><td>_915ADE302F31F4CC888554EF5EFA4692</td><td>0</td><td>*\shell\scigit\shell</td><td/><td/><td>ISX_DEFAULTCOMPONENT</td><td/></row>
-		<row><td>_99CDB489622F6CEBB28E6F38BA65F2EA</td><td>0</td><td>*\shell\scigit\shell\revert\command</td><td/><td>#%"[INSTALLDIR]SciGit-Client.exe" --pversions "%1"</td><td>ISX_DEFAULTCOMPONENT</td><td/></row>
+		<row><td>_99CDB489622F6CEBB28E6F38BA65F2EA</td><td>0</td><td>*\shell\scigit\shell\phistory\command</td><td/><td>#%"[INSTALLDIR]SciGit-Client.exe" --pversions "%1"</td><td>ISX_DEFAULTCOMPONENT</td><td/></row>
 		<row><td>_A89700799A5D9458252DE2CB5B9DFA55</td><td>0</td><td>Directory\shell\scigit</td><td>MultiSelectModel</td><td>Single</td><td>ISX_DEFAULTCOMPONENT</td><td/></row>
-		<row><td>_A943AF83A97E8220E92AFE6393B1D6BF</td><td>0</td><td>Directory\shell\scigit\shell\revert</td><td>MUIVerb</td><td>Revert project...</td><td>ISX_DEFAULTCOMPONENT</td><td/></row>
+		<row><td>_A943AF83A97E8220E92AFE6393B1D6BF</td><td>0</td><td>Directory\shell\scigit\shell\phistory</td><td>MUIVerb</td><td>Show project history...</td><td>ISX_DEFAULTCOMPONENT</td><td/></row>
 		<row><td>_B23044C96EB9CC23B94C5D747E6744D9</td><td>0</td><td>*\shell\scigit</td><td>Icon</td><td>#%[INSTALLDIR]SciGit-Client.exe</td><td>ISX_DEFAULTCOMPONENT</td><td/></row>
-		<row><td>_BF1B67041095BF4B1B6EFF50FC9C237E</td><td>0</td><td>Directory\shell\scigit\shell\revert\command</td><td/><td>#%"[INSTALLDIR]SciGit-Client.exe" --pversions "%1"</td><td>ISX_DEFAULTCOMPONENT</td><td/></row>
+		<row><td>_BF1B67041095BF4B1B6EFF50FC9C237E</td><td>0</td><td>Directory\shell\scigit\shell\phistory\command</td><td/><td>#%"[INSTALLDIR]SciGit-Client.exe" --pversions "%1"</td><td>ISX_DEFAULTCOMPONENT</td><td/></row>
 		<row><td>_C3C478871B4FAB9B3FC54FCA436AF71B</td><td>0</td><td>Directory\shell\scigit\shell\update</td><td>MUIVerb</td><td>Update project...</td><td>ISX_DEFAULTCOMPONENT</td><td/></row>
 		<row><td>_C84049B1B2B0E13C45FFFC436540E711</td><td>0</td><td>Directory\shell\scigit</td><td>AppliesTo</td><td>System.ItemPathDisplay:~="\SciGit\"</td><td>ISX_DEFAULTCOMPONENT</td><td/></row>
 		<row><td>_CB714136CE2B965AD19A7B7BB55F90B9</td><td>0</td><td>*\shell\scigit</td><td>MultiSelectModel</td><td>Single</td><td>ISX_DEFAULTCOMPONENT</td><td/></row>
