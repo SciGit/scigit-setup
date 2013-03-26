@@ -349,6 +349,7 @@
 		<row><td>ISX_DEFAULTCOMPONENT1</td><td>{07BA55AA-1D68-4A96-9C8C-8DC0E3A5C736}</td><td>ProgramFilesFolder</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>SciGit_Client.exe</td><td>{639E4194-8E6D-43CD-BE73-53BA966281F6}</td><td>INSTALLDIR</td><td>2</td><td/><td>scigit_client.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>SciGit_Filter.dll</td><td>{A6384237-E608-4936-8773-8C43A09648C8}</td><td>INSTALLDIR</td><td>2</td><td/><td>scigit_filter.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>WORDPIA.DLL</td><td>{D4A7AFEF-96F9-49DD-AA79-FBCFCD2C02EA}</td><td>INSTALLDIR</td><td>2</td><td/><td>wordpia.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>log4net.dll</td><td>{1EECB160-B88A-4E2B-BDF8-832A9E7AB08D}</td><td>INSTALLDIR</td><td>2</td><td/><td>log4net.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 	</table>
 
@@ -1886,6 +1887,7 @@
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT1</td></row>
 		<row><td>AlwaysInstall</td><td>SciGit_Client.exe</td></row>
 		<row><td>AlwaysInstall</td><td>SciGit_Filter.dll</td></row>
+		<row><td>AlwaysInstall</td><td>WORDPIA.DLL</td></row>
 		<row><td>AlwaysInstall</td><td>log4net.dll</td></row>
 	</table>
 
@@ -1905,6 +1907,7 @@
 		<row><td>log4net.dll</td><td>log4net.dll</td><td>log4net.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Hanson\Documents\GitHub\scigit-client\SciGit-Client\bin\Release\log4net.dll</td><td>1</td><td/></row>
 		<row><td>scigit_client.exe</td><td>SciGit_Client.exe</td><td>SCIGIT~1.EXE|SciGit-Client.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Hanson\Documents\GitHub\scigit-client\SciGit-Client\bin\Release\SciGit-Client.exe</td><td>1</td><td/></row>
 		<row><td>scigit_filter.dll</td><td>SciGit_Filter.dll</td><td>SCIGIT~1.DLL|SciGit-Filter.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Hanson\Documents\GitHub\scigit-client\SciGit-Client\bin\Release\SciGit-Filter.dll</td><td>1</td><td/></row>
+		<row><td>wordpia.dll</td><td>WORDPIA.DLL</td><td>WORDPIA.DLL</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Hanson\Documents\GitHub\scigit-client\Libraries\WORDPIA.DLL</td><td>1</td><td/></row>
 	</table>
 
 	<table name="FileSFPCatalog">
@@ -2167,6 +2170,7 @@
 		<row><td>ISX_DEFAULTCOMPONENT1</td><td/><td/><td>_8DFBB8C2_809B_47DB_B86F_2104E2199D90_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>SciGit_Client.exe</td><td/><td/><td>_05BE5A9A_279D_4F29_8E89_A57C0863A249_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>SciGit_Filter.dll</td><td/><td/><td>_C7000B22_36AB_43F6_AE75_E2835CE0E5B0_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>WORDPIA.DLL</td><td/><td/><td>_B299C70D_5395_45EC_8680_C031100DD6BD_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>log4net.dll</td><td/><td/><td>_01F15F33_E03C_4F68_B07E_CECBDD65953A_FILTER</td><td/><td/><td/><td/></row>
 	</table>
 
@@ -2762,7 +2766,7 @@
 		<col def="I2">Order</col>
 		<col def="I2">ISSetupLocation</col>
 		<col def="S255">ISReleaseFlags</col>
-		<row><td>_032B91B4_4260_4552_B1F9_E96804543DD0_</td><td>Microsoft .NET Framework 3.5 (Web Download).prq</td><td/><td/><td/></row>
+		<row><td>_ABD9DAD4_56D3_45E3_AFA7_3D1B2A86E4CC_</td><td>Microsoft .NET Framework 3.5 SP1 (Web Download).prq</td><td/><td/><td/></row>
 	</table>
 
 	<table name="ISSetupType">
