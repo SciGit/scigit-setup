@@ -225,7 +225,7 @@
 	<table name="AppSearch">
 		<col key="yes" def="s72">Property</col>
 		<col key="yes" def="s72">Signature_</col>
-		<row><td>DOTNETVERSION35</td><td>DotNet35</td></row>
+		<row><td>DOTNETVERSION35SP1</td><td>DotNet35SP1</td></row>
 	</table>
 
 	<table name="BBControl">
@@ -347,7 +347,7 @@
 		<row><td>DiffPlex.dll</td><td>{7E3168BE-13AC-4610-B85C-B032650EE09B}</td><td>INSTALLDIR</td><td>2</td><td/><td>diffplex.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISX_DEFAULTCOMPONENT</td><td>{58F37D45-8F3B-4637-B206-8B17BD2ADE10}</td><td>INSTALLDIR</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISX_DEFAULTCOMPONENT1</td><td>{07BA55AA-1D68-4A96-9C8C-8DC0E3A5C736}</td><td>ProgramFilesFolder</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>SciGit_Client.exe</td><td>{639E4194-8E6D-43CD-BE73-53BA966281F6}</td><td>INSTALLDIR</td><td>2</td><td/><td>scigit_client.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>SciGit.exe</td><td>{73E373A2-830F-4D66-B0FA-A3167EECA75F}</td><td>INSTALLDIR</td><td>2</td><td/><td>scigit.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>SciGit_Filter.dll</td><td>{A6384237-E608-4936-8773-8C43A09648C8}</td><td>INSTALLDIR</td><td>2</td><td/><td>scigit_filter.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>WORDPIA.DLL</td><td>{D4A7AFEF-96F9-49DD-AA79-FBCFCD2C02EA}</td><td>INSTALLDIR</td><td>2</td><td/><td>wordpia.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>log4net.dll</td><td>{1EECB160-B88A-4E2B-BDF8-832A9E7AB08D}</td><td>INSTALLDIR</td><td>2</td><td/><td>log4net.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
@@ -1885,7 +1885,7 @@
 		<row><td>AlwaysInstall</td><td>DiffPlex.dll</td></row>
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT</td></row>
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT1</td></row>
-		<row><td>AlwaysInstall</td><td>SciGit_Client.exe</td></row>
+		<row><td>AlwaysInstall</td><td>SciGit.exe</td></row>
 		<row><td>AlwaysInstall</td><td>SciGit_Filter.dll</td></row>
 		<row><td>AlwaysInstall</td><td>WORDPIA.DLL</td></row>
 		<row><td>AlwaysInstall</td><td>log4net.dll</td></row>
@@ -1905,7 +1905,7 @@
 		<col def="S72">ISComponentSubFolder_</col>
 		<row><td>diffplex.dll</td><td>DiffPlex.dll</td><td>DiffPlex.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Hanson\Documents\GitHub\scigit-client\SciGit-Client\bin\Release\DiffPlex.dll</td><td>1</td><td/></row>
 		<row><td>log4net.dll</td><td>log4net.dll</td><td>log4net.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Hanson\Documents\GitHub\scigit-client\SciGit-Client\bin\Release\log4net.dll</td><td>1</td><td/></row>
-		<row><td>scigit_client.exe</td><td>SciGit_Client.exe</td><td>SCIGIT~1.EXE|SciGit-Client.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Hanson\Documents\GitHub\scigit-client\SciGit-Client\bin\Release\SciGit-Client.exe</td><td>1</td><td/></row>
+		<row><td>scigit.exe</td><td>SciGit.exe</td><td>SciGit.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Hanson\Documents\GitHub\scigit-client\SciGit-Client\bin\Release\SciGit.exe</td><td>1</td><td/></row>
 		<row><td>scigit_filter.dll</td><td>SciGit_Filter.dll</td><td>SCIGIT~1.DLL|SciGit-Filter.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Hanson\Documents\GitHub\scigit-client\SciGit-Client\bin\Release\SciGit-Filter.dll</td><td>1</td><td/></row>
 		<row><td>wordpia.dll</td><td>WORDPIA.DLL</td><td>WORDPIA.DLL</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Hanson\Documents\GitHub\scigit-client\Libraries\WORDPIA.DLL</td><td>1</td><td/></row>
 	</table>
@@ -2168,7 +2168,7 @@
 		<row><td>DiffPlex.dll</td><td/><td/><td>_79BB87F5_BBF8_4781_95D7_6B791265B7DA_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT</td><td/><td/><td>_18DE97B7_D227_4124_84F8_CB3677E41B34_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT1</td><td/><td/><td>_8DFBB8C2_809B_47DB_B86F_2104E2199D90_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>SciGit_Client.exe</td><td/><td/><td>_05BE5A9A_279D_4F29_8E89_A57C0863A249_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>SciGit.exe</td><td/><td/><td>_EB7AF0A3_32D1_43AD_B77F_7839EA669839_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>SciGit_Filter.dll</td><td/><td/><td>_C7000B22_36AB_43F6_AE75_E2835CE0E5B0_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>WORDPIA.DLL</td><td/><td/><td>_B299C70D_5395_45EC_8680_C031100DD6BD_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>log4net.dll</td><td/><td/><td>_01F15F33_E03C_4F68_B07E_CECBDD65953A_FILTER</td><td/><td/><td/><td/></row>
@@ -2550,11 +2550,11 @@
 		<col def="S255">DotNetBuildConfiguration</col>
 		<col def="S255">MsiCommandLine</col>
 		<col def="I4">ISSetupPrerequisiteLocation</col>
-		<row><td>CD_ROM</td><td>Express</td><td>&lt;ISProjectDataFolder&gt;</td><td>Default</td><td>0</td><td>1033</td><td>0</td><td>2</td><td>Intel</td><td/><td>1033</td><td>0</td><td>650</td><td>0</td><td>2048</td><td/><td>0</td><td/><td>MediaLocation</td><td/><td>http://</td><td/><td/><td/><td/><td>75805</td><td/><td/><td/><td>3</td></row>
+		<row><td>CD_ROM</td><td>Express</td><td>&lt;ISProjectDataFolder&gt;</td><td>Default</td><td>0</td><td>1033</td><td>0</td><td>2</td><td>Intel</td><td/><td>1033</td><td>0</td><td>650</td><td>0</td><td>2048</td><td/><td>0</td><td/><td>MediaLocation</td><td/><td>http://</td><td/><td/><td/><td/><td>75804</td><td/><td/><td/><td>3</td></row>
 		<row><td>Custom</td><td>Express</td><td>&lt;ISProjectDataFolder&gt;</td><td>Default</td><td>2</td><td>1033</td><td>0</td><td>2</td><td>Intel</td><td/><td>1033</td><td>0</td><td>100</td><td>0</td><td>1024</td><td/><td>0</td><td/><td>MediaLocation</td><td/><td>http://</td><td/><td/><td/><td/><td>75805</td><td/><td/><td/><td>3</td></row>
 		<row><td>DVD-10</td><td>Express</td><td>&lt;ISProjectDataFolder&gt;</td><td>Default</td><td>3</td><td>1033</td><td>0</td><td>2</td><td>Intel</td><td/><td>1033</td><td>0</td><td>8.75</td><td>1</td><td>2048</td><td/><td>0</td><td/><td>MediaLocation</td><td/><td>http://</td><td/><td/><td/><td/><td>75805</td><td/><td/><td/><td>3</td></row>
 		<row><td>DVD-18</td><td>Express</td><td>&lt;ISProjectDataFolder&gt;</td><td>Default</td><td>3</td><td>1033</td><td>0</td><td>2</td><td>Intel</td><td/><td>1033</td><td>0</td><td>15.83</td><td>1</td><td>2048</td><td/><td>0</td><td/><td>MediaLocation</td><td/><td>http://</td><td/><td/><td/><td/><td>75805</td><td/><td/><td/><td>3</td></row>
-		<row><td>DVD-5</td><td>Express</td><td>&lt;ISProjectDataFolder&gt;</td><td>Default</td><td>3</td><td>1033</td><td>0</td><td>2</td><td>Intel</td><td/><td>1033</td><td>0</td><td>4.38</td><td>1</td><td>2048</td><td/><td>0</td><td/><td>MediaLocation</td><td/><td>http://</td><td/><td/><td/><td/><td>75805</td><td/><td/><td/><td>3</td></row>
+		<row><td>DVD-5</td><td>Express</td><td>&lt;ISProjectDataFolder&gt;</td><td>Default</td><td>3</td><td>1033</td><td>0</td><td>2</td><td>Intel</td><td/><td>1033</td><td>0</td><td>4.38</td><td>1</td><td>2048</td><td/><td>0</td><td/><td>MediaLocation</td><td/><td>http://</td><td/><td/><td/><td/><td>75804</td><td/><td/><td/><td>3</td></row>
 		<row><td>DVD-9</td><td>Express</td><td>&lt;ISProjectDataFolder&gt;</td><td>Default</td><td>3</td><td>1033</td><td>0</td><td>2</td><td>Intel</td><td/><td>1033</td><td>0</td><td>7.95</td><td>1</td><td>2048</td><td/><td>0</td><td/><td>MediaLocation</td><td/><td>http://</td><td/><td/><td/><td/><td>75805</td><td/><td/><td/><td>3</td></row>
 		<row><td>SingleImage</td><td>Express</td><td>&lt;ISProjectDataFolder&gt;</td><td>PackageName</td><td>1</td><td>1033</td><td>0</td><td>1</td><td>Intel</td><td/><td>1033</td><td>0</td><td>0</td><td>0</td><td>0</td><td/><td>0</td><td/><td>MediaLocation</td><td/><td>http://</td><td/><td/><td/><td/><td>108573</td><td/><td/><td/><td>3</td></row>
 		<row><td>WebDeployment</td><td>Express</td><td>&lt;ISProjectDataFolder&gt;</td><td>PackageName</td><td>4</td><td>1033</td><td>2</td><td>1</td><td>Intel</td><td/><td>1033</td><td>0</td><td>0</td><td>0</td><td>0</td><td/><td>0</td><td/><td>MediaLocation</td><td/><td>http://</td><td/><td/><td/><td/><td>124941</td><td/><td/><td/><td>3</td></row>
@@ -2800,10 +2800,11 @@
 		<col def="I2">Encoded</col>
 		<col def="S0">Comment</col>
 		<col def="I4">TimeStamp</col>
-		<row><td>COMPANY_NAME</td><td>1033</td><td>SciGit</td><td>0</td><td/><td>1956684695</td></row>
+		<row><td>COMPANY_NAME</td><td>1033</td><td>SciGit</td><td>0</td><td/><td>-241051094</td></row>
 		<row><td>DN_AlwaysInstall</td><td>1033</td><td>Always Install</td><td>0</td><td/><td>1956672375</td></row>
 		<row><td>IDPROP_EXPRESS_LAUNCH_CONDITION_COLOR</td><td>1033</td><td>The color settings of your system are not adequate for running [ProductName].</td><td>0</td><td/><td>1956672375</td></row>
 		<row><td>IDPROP_EXPRESS_LAUNCH_CONDITION_DOTNETVERSION35</td><td>1033</td><td>Microsoft .NET Framework 3.5 needs to be installed for this installation to continue.</td><td>0</td><td/><td>-1793025149</td></row>
+		<row><td>IDPROP_EXPRESS_LAUNCH_CONDITION_DOTNETVERSION35SP1</td><td>1033</td><td>Microsoft .NET Framework 3.5 SP1 needs to be installed for this installation to continue.</td><td>0</td><td/><td>-241050550</td></row>
 		<row><td>IDPROP_EXPRESS_LAUNCH_CONDITION_OS</td><td>1033</td><td>The operating system is not adequate for running [ProductName].</td><td>0</td><td/><td>1956672375</td></row>
 		<row><td>IDPROP_EXPRESS_LAUNCH_CONDITION_PROCESSOR</td><td>1033</td><td>The processor is not adequate for running [ProductName].</td><td>0</td><td/><td>1956672375</td></row>
 		<row><td>IDPROP_EXPRESS_LAUNCH_CONDITION_RAM</td><td>1033</td><td>The amount of RAM is not adequate for running [ProductName].</td><td>0</td><td/><td>1956672375</td></row>
@@ -4112,12 +4113,15 @@
 		<row><td>IDS__TargetReq_DESC_PROCESSOR</td><td>1033</td><td>The processor is not adequate for running [ProductName].</td><td>0</td><td/><td>1956672375</td></row>
 		<row><td>IDS__TargetReq_DESC_RAM</td><td>1033</td><td>The amount of RAM is not adequate for running [ProductName].</td><td>0</td><td/><td>1956672375</td></row>
 		<row><td>IDS__TargetReq_DESC_RESOLUTION</td><td>1033</td><td>The screen resolution is not adequate for running [ProductName].</td><td>0</td><td/><td>1956672375</td></row>
-		<row><td>ID_STRING1</td><td>1033</td><td>http://www.scigit.com</td><td>0</td><td/><td>1159743924</td></row>
-		<row><td>ID_STRING2</td><td>1033</td><td>SciGit</td><td>0</td><td/><td>2090874624</td></row>
+		<row><td>ID_STRING1</td><td>1033</td><td>http://www.scigit.com</td><td>0</td><td/><td>-241101750</td></row>
+		<row><td>ID_STRING2</td><td>1033</td><td>SciGit</td><td>0</td><td/><td>-241051094</td></row>
 		<row><td>ID_STRING3</td><td>1033</td><td>LAUNCH~1.EXE|Launch SciGit-Client.exe</td><td>0</td><td/><td>1956678775</td></row>
 		<row><td>ID_STRING4</td><td>1033</td><td>SciGit</td><td>0</td><td/><td>1159743668</td></row>
 		<row><td>ID_STRING5</td><td>1033</td><td>UNINST~1|Uninstall SciGit</td><td>0</td><td/><td>1159780596</td></row>
 		<row><td>ID_STRING6</td><td>1033</td><td>=-NewEnvironment1</td><td>0</td><td/><td>1159737079</td></row>
+		<row><td>ID_STRING7</td><td>1033</td><td>SciGit</td><td>0</td><td/><td>-241090102</td></row>
+		<row><td>ID_STRING8</td><td>1033</td><td>SciGit</td><td>0</td><td/><td>-241051158</td></row>
+		<row><td>ID_STRING9</td><td>1033</td><td>SciGit</td><td>0</td><td/><td>-241063414</td></row>
 		<row><td>IIDS_UITEXT_FeatureUninstalled</td><td>1033</td><td>This feature will remain uninstalled.</td><td>0</td><td/><td>1956672375</td></row>
 	</table>
 
@@ -4227,6 +4231,9 @@
 		<col def="I2">ISIconIndex</col>
 		<row><td>ARPPRODUCTICON.exe</td><td/><td>C:\Users\Hanson\Documents\GitHub\scigit-client\SciGit-Client\icon.ico</td><td>0</td></row>
 		<row><td>NewShortcut1_E4AEF5C90767412497B4645CCB841385.exe</td><td/><td>C:\Program Files (x86)\InstallShield\2012SpringLE\Redist\Language Independent\OS Independent\uninstall.ico</td><td>0</td></row>
+		<row><td>NewShortcut21_44A3F558E5D4433689E54E0F2F48F111.exe</td><td/><td>C:\Users\Hanson\Documents\GitHub\scigit-client\SciGit-Client\bin\Release\SciGit.exe</td><td>0</td></row>
+		<row><td>NewShortcut2_E770E7EFF20E47418E783E43068EE649.exe</td><td/><td>C:\Users\Hanson\Documents\GitHub\scigit-client\SciGit-Client\bin\Release\SciGit.exe</td><td>0</td></row>
+		<row><td>NewShortcut3_447DE430DDC449EF9F69A474CE45DCBF.exe</td><td/><td>C:\Users\Hanson\Documents\GitHub\scigit-client\SciGit-Client\bin\Release\SciGit.exe</td><td>0</td></row>
 		<row><td>SciGit_Client.exe1_4DDD2F7A68C544019F5B246BBC22F578.exe</td><td/><td>&lt;ISProductFolder&gt;\redist\Language Independent\OS Independent\GenericExe.ico</td><td>0</td></row>
 		<row><td>SciGit_Client.exe1_B3F392045F4D4E6386605071A926A2DD.exe</td><td/><td>C:\Users\Hanson\Documents\GitHub\scigit-client\SciGit-Client\bin\Release\SciGit-Client.exe</td><td>0</td></row>
 		<row><td>SciGit_Client.exe_173617F3C21B43429B27A8B6F28EB2AD.exe</td><td/><td>C:\Users\Hanson\Documents\GitHub\scigit-client\SciGit-Client\bin\Release\SciGit-Client.exe</td><td>0</td></row>
@@ -4431,7 +4438,7 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<col key="yes" def="s255">Condition</col>
 		<col def="l255">Description</col>
 		<row><td>(Not Version9X) And (Not VersionNT=400) And (Not VersionNT=500)</td><td>##IDPROP_EXPRESS_LAUNCH_CONDITION_OS##</td></row>
-		<row><td>DOTNETVERSION35&lt;&gt;""</td><td>##IDPROP_EXPRESS_LAUNCH_CONDITION_DOTNETVERSION35##</td></row>
+		<row><td>DOTNETVERSION35SP1&gt;="#1"</td><td>##IDPROP_EXPRESS_LAUNCH_CONDITION_DOTNETVERSION35SP1##</td></row>
 	</table>
 
 	<table name="ListBox">
@@ -4722,8 +4729,8 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>IS_SQLSERVER_USERNAME</td><td>sa</td><td/></row>
 		<row><td>InstallChoice</td><td>AR</td><td/></row>
 		<row><td>LAUNCHPROGRAM</td><td>1</td><td/></row>
-		<row><td>LAUNCHPROGRAMCOMPCODE</td><td>{5D67B7F5-16F9-462D-B0FF-42DF76FBC850}</td><td/></row>
-		<row><td>LAUNCHPROGRAMFILEKEY</td><td>scigit_client.exe</td><td/></row>
+		<row><td>LAUNCHPROGRAMCOMPCODE</td><td>{73E373A2-830F-4D66-B0FA-A3167EECA75F}</td><td/></row>
+		<row><td>LAUNCHPROGRAMFILEKEY</td><td>scigit.exe</td><td/></row>
 		<row><td>LAUNCHREADME</td><td>1</td><td/></row>
 		<row><td>MSIFASTINSTALL</td><td>3</td><td/></row>
 		<row><td>Manufacturer</td><td>##COMPANY_NAME##</td><td/></row>
@@ -4752,10 +4759,10 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>PROGMSG_IIS_ROLLBACKAPPPOOLS</td><td>##IDS_PROGMSG_IIS_ROLLBACKAPPPOOLS##</td><td/></row>
 		<row><td>PROGMSG_IIS_ROLLBACKVROOTS</td><td>##IDS_PROGMSG_IIS_ROLLBACKVROOTS##</td><td/></row>
 		<row><td>PROGMSG_IIS_ROLLBACKWEBSERVICEEXTENSIONS</td><td>##IDS_PROGMSG_IIS_ROLLBACKWEBSERVICEEXTENSIONS##</td><td/></row>
-		<row><td>PROGRAMFILETOLAUNCHATEND</td><td>[INSTALLDIR]SciGit-Client.exe</td><td/></row>
+		<row><td>PROGRAMFILETOLAUNCHATEND</td><td>[INSTALLDIR]SciGit.exe</td><td/></row>
 		<row><td>ProductCode</td><td>{72030B00-9911-447B-9B67-C14CAABAC392}</td><td/></row>
 		<row><td>ProductName</td><td>SciGit</td><td/></row>
-		<row><td>ProductVersion</td><td>0.1.0.0</td><td/></row>
+		<row><td>ProductVersion</td><td>1.0.0.0</td><td/></row>
 		<row><td>ProgressType0</td><td>install</td><td/></row>
 		<row><td>ProgressType1</td><td>Installing</td><td/></row>
 		<row><td>ProgressType2</td><td>installed</td><td/></row>
@@ -4768,7 +4775,7 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>SERIALNUMBER</td><td/><td/></row>
 		<row><td>SERIALNUMVALSUCCESSRETVAL</td><td>1</td><td/></row>
 		<row><td>SHOWLAUNCHPROGRAM</td><td>-1</td><td/></row>
-		<row><td>SecureCustomProperties</td><td>ISFOUNDNEWERPRODUCTVERSION;USERNAME;COMPANYNAME;ISX_SERIALNUM;SUPPORTDIR;DOTNETVERSION35</td><td/></row>
+		<row><td>SecureCustomProperties</td><td>ISFOUNDNEWERPRODUCTVERSION;USERNAME;COMPANYNAME;ISX_SERIALNUM;SUPPORTDIR;DOTNETVERSION35SP1</td><td/></row>
 		<row><td>SelectedSetupType</td><td>##IDS__DisplayName_Typical##</td><td/></row>
 		<row><td>SetupType</td><td>Typical</td><td/></row>
 		<row><td>UpgradeCode</td><td>{242009BA-A8A2-4EE9-9FFD-81E8445013B3}</td><td/></row>
@@ -4813,7 +4820,7 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<col def="s255">Key</col>
 		<col def="S255">Name</col>
 		<col def="I2">Type</col>
-		<row><td>DotNet35</td><td>2</td><td>SOFTWARE\Microsoft\NET Framework Setup\NDP\v3.5</td><td>Version</td><td>2</td></row>
+		<row><td>DotNet35SP1</td><td>2</td><td>SOFTWARE\Microsoft\NET Framework Setup\NDP\v3.5</td><td>SP</td><td>2</td></row>
 	</table>
 
 	<table name="Registry">
@@ -4824,38 +4831,38 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<col def="S0">Value</col>
 		<col def="s72">Component_</col>
 		<col def="I4">ISAttributes</col>
-		<row><td>Registry1</td><td>1</td><td>Software\Microsoft\Windows\CurrentVersion\Run</td><td>SciGit</td><td>"[INSTALLDIR]SciGit-Client.exe" -autologin</td><td>ISX_DEFAULTCOMPONENT</td><td>0</td></row>
+		<row><td>Registry1</td><td>1</td><td>Software\Microsoft\Windows\CurrentVersion\Run</td><td>SciGit</td><td>"[INSTALLDIR]SciGit.exe" -autologin</td><td>ISX_DEFAULTCOMPONENT</td><td>0</td></row>
 		<row><td>Registry2</td><td>0</td><td>scigit</td><td/><td>URL:SciGit client</td><td>ISX_DEFAULTCOMPONENT</td><td>0</td></row>
 		<row><td>Registry3</td><td>0</td><td>scigit</td><td>URL Protocol</td><td/><td>ISX_DEFAULTCOMPONENT</td><td>0</td></row>
-		<row><td>Registry4</td><td>0</td><td>scigit\DefaultIcon</td><td/><td>[INSTALLDIR]SciGit-Client.exe</td><td>ISX_DEFAULTCOMPONENT</td><td>0</td></row>
+		<row><td>Registry4</td><td>0</td><td>scigit\DefaultIcon</td><td/><td>[INSTALLDIR]SciGit.exe</td><td>ISX_DEFAULTCOMPONENT</td><td>0</td></row>
 		<row><td>Registry5</td><td>0</td><td>scigit\shell</td><td/><td/><td>ISX_DEFAULTCOMPONENT</td><td>0</td></row>
 		<row><td>Registry6</td><td>0</td><td>scigit\shell\open</td><td/><td/><td>ISX_DEFAULTCOMPONENT</td><td>0</td></row>
-		<row><td>Registry7</td><td>0</td><td>scigit\shell\open\command</td><td/><td>"[INSTALLDIR]SciGit-Client.exe" --url "%1"</td><td>ISX_DEFAULTCOMPONENT</td><td>0</td></row>
+		<row><td>Registry7</td><td>0</td><td>scigit\shell\open\command</td><td/><td>"[INSTALLDIR]SciGit.exe" --url "%1"</td><td>ISX_DEFAULTCOMPONENT</td><td>0</td></row>
 		<row><td>_0161B59390864BA7645E8F77F89502A7</td><td>0</td><td>Directory\shell\scigit</td><td>MUIVerb</td><td>SciGit</td><td>ISX_DEFAULTCOMPONENT</td><td/></row>
 		<row><td>_09452E9D0EE9FE04F81A53EBC94BDA8F</td><td>0</td><td>*\shell\scigit\shell\versions</td><td>CommandFlags</td><td>#32</td><td>ISX_DEFAULTCOMPONENT</td><td/></row>
 		<row><td>_1086EE86B7D58CBE36BF43DBB434AC6D</td><td>0</td><td>*\shell\scigit\shell\upload</td><td>MUIVerb</td><td>Upload project changes...</td><td>ISX_DEFAULTCOMPONENT</td><td/></row>
-		<row><td>_2BE338522BE7847A988DA683820EBFC4</td><td>0</td><td>*\shell\scigit\shell\upload\command</td><td/><td>#%"[INSTALLDIR]SciGit-Client.exe" --upload "%1"</td><td>ISX_DEFAULTCOMPONENT</td><td/></row>
+		<row><td>_2BE338522BE7847A988DA683820EBFC4</td><td>0</td><td>*\shell\scigit\shell\upload\command</td><td/><td>#%"[INSTALLDIR]SciGit.exe" --upload "%1"</td><td>ISX_DEFAULTCOMPONENT</td><td/></row>
 		<row><td>_33CCD7187159DBB3ABD3B730D9A4B2B1</td><td>0</td><td>*\shell\scigit\shell\phistory</td><td>MUIVerb</td><td>Show project history...</td><td>ISX_DEFAULTCOMPONENT</td><td/></row>
 		<row><td>_3D333EC0BEA8BE67B12013546A4CEFD1</td><td>0</td><td>Directory\shell\scigit</td><td>SubCommands</td><td/><td>ISX_DEFAULTCOMPONENT</td><td/></row>
-		<row><td>_5DE8A2E4C4F90106307F8846506796B5</td><td>0</td><td>*\shell\scigit\shell\update\command</td><td/><td>#%"[INSTALLDIR]SciGit-Client.exe" --update "%1"</td><td>ISX_DEFAULTCOMPONENT</td><td/></row>
+		<row><td>_5DE8A2E4C4F90106307F8846506796B5</td><td>0</td><td>*\shell\scigit\shell\update\command</td><td/><td>#%"[INSTALLDIR]SciGit.exe" --update "%1"</td><td>ISX_DEFAULTCOMPONENT</td><td/></row>
 		<row><td>_5FEA4C5926F635C76B55780EE0556A38</td><td>0</td><td>Directory\shell\scigit\shell\upload</td><td>MUIVerb</td><td>Upload project changes...</td><td>ISX_DEFAULTCOMPONENT</td><td/></row>
 		<row><td>_6077F6AAEC46D906A1886125CC8FA740</td><td>0</td><td>*\shell\scigit</td><td>AppliesTo</td><td>System.ItemPathDisplay:~="\SciGit\"</td><td>ISX_DEFAULTCOMPONENT</td><td/></row>
-		<row><td>_676D7444FB4873A9966A820939725DA2</td><td>0</td><td>Directory\shell\scigit</td><td>Icon</td><td>#%[INSTALLDIR]SciGit-Client.exe</td><td>ISX_DEFAULTCOMPONENT</td><td/></row>
-		<row><td>_68351DE3E75AE6CA2EF98EB06D09FCAC</td><td>0</td><td>Directory\shell\scigit\shell\update\command</td><td/><td>#%"[INSTALLDIR]SciGit-Client.exe" --update "%1"</td><td>ISX_DEFAULTCOMPONENT</td><td/></row>
+		<row><td>_676D7444FB4873A9966A820939725DA2</td><td>0</td><td>Directory\shell\scigit</td><td>Icon</td><td>#%[INSTALLDIR]SciGit.exe</td><td>ISX_DEFAULTCOMPONENT</td><td/></row>
+		<row><td>_68351DE3E75AE6CA2EF98EB06D09FCAC</td><td>0</td><td>Directory\shell\scigit\shell\update\command</td><td/><td>#%"[INSTALLDIR]SciGit.exe" --update "%1"</td><td>ISX_DEFAULTCOMPONENT</td><td/></row>
 		<row><td>_72A33314B78418C2E9FCCF5426C11581</td><td>0</td><td>*\shell\scigit\shell\versions</td><td>MUIVerb</td><td>Show previous versions...</td><td>ISX_DEFAULTCOMPONENT</td><td/></row>
 		<row><td>_7C0F7A7D05E26456700AC75AD7AA3986</td><td>0</td><td>*\shell\scigit\shell\update</td><td>MUIVerb</td><td>Update project...</td><td>ISX_DEFAULTCOMPONENT</td><td/></row>
-		<row><td>_86FE161C03150822CF47AE95C90F2B07</td><td>0</td><td>Directory\shell\scigit\shell\upload\command</td><td/><td>#%"[INSTALLDIR]SciGit-Client.exe" --upload "%1"</td><td>ISX_DEFAULTCOMPONENT</td><td/></row>
+		<row><td>_86FE161C03150822CF47AE95C90F2B07</td><td>0</td><td>Directory\shell\scigit\shell\upload\command</td><td/><td>#%"[INSTALLDIR]SciGit.exe" --upload "%1"</td><td>ISX_DEFAULTCOMPONENT</td><td/></row>
 		<row><td>_88381B38771679D43004543C5A869651</td><td>0</td><td>*\shell\scigit</td><td>MUIVerb</td><td>SciGit</td><td>ISX_DEFAULTCOMPONENT</td><td/></row>
 		<row><td>_915ADE302F31F4CC888554EF5EFA4692</td><td>0</td><td>*\shell\scigit\shell</td><td/><td/><td>ISX_DEFAULTCOMPONENT</td><td/></row>
-		<row><td>_99CDB489622F6CEBB28E6F38BA65F2EA</td><td>0</td><td>*\shell\scigit\shell\phistory\command</td><td/><td>#%"[INSTALLDIR]SciGit-Client.exe" --pversions "%1"</td><td>ISX_DEFAULTCOMPONENT</td><td/></row>
+		<row><td>_99CDB489622F6CEBB28E6F38BA65F2EA</td><td>0</td><td>*\shell\scigit\shell\phistory\command</td><td/><td>#%"[INSTALLDIR]SciGit.exe" --pversions "%1"</td><td>ISX_DEFAULTCOMPONENT</td><td/></row>
 		<row><td>_A89700799A5D9458252DE2CB5B9DFA55</td><td>0</td><td>Directory\shell\scigit</td><td>MultiSelectModel</td><td>Single</td><td>ISX_DEFAULTCOMPONENT</td><td/></row>
 		<row><td>_A943AF83A97E8220E92AFE6393B1D6BF</td><td>0</td><td>Directory\shell\scigit\shell\phistory</td><td>MUIVerb</td><td>Show project history...</td><td>ISX_DEFAULTCOMPONENT</td><td/></row>
-		<row><td>_B23044C96EB9CC23B94C5D747E6744D9</td><td>0</td><td>*\shell\scigit</td><td>Icon</td><td>#%[INSTALLDIR]SciGit-Client.exe</td><td>ISX_DEFAULTCOMPONENT</td><td/></row>
-		<row><td>_BF1B67041095BF4B1B6EFF50FC9C237E</td><td>0</td><td>Directory\shell\scigit\shell\phistory\command</td><td/><td>#%"[INSTALLDIR]SciGit-Client.exe" --pversions "%1"</td><td>ISX_DEFAULTCOMPONENT</td><td/></row>
+		<row><td>_B23044C96EB9CC23B94C5D747E6744D9</td><td>0</td><td>*\shell\scigit</td><td>Icon</td><td>#%[INSTALLDIR]SciGit.exe</td><td>ISX_DEFAULTCOMPONENT</td><td/></row>
+		<row><td>_BF1B67041095BF4B1B6EFF50FC9C237E</td><td>0</td><td>Directory\shell\scigit\shell\phistory\command</td><td/><td>#%"[INSTALLDIR]SciGit.exe" --pversions "%1"</td><td>ISX_DEFAULTCOMPONENT</td><td/></row>
 		<row><td>_C3C478871B4FAB9B3FC54FCA436AF71B</td><td>0</td><td>Directory\shell\scigit\shell\update</td><td>MUIVerb</td><td>Update project...</td><td>ISX_DEFAULTCOMPONENT</td><td/></row>
 		<row><td>_C84049B1B2B0E13C45FFFC436540E711</td><td>0</td><td>Directory\shell\scigit</td><td>AppliesTo</td><td>System.ItemPathDisplay:~="\SciGit\"</td><td>ISX_DEFAULTCOMPONENT</td><td/></row>
 		<row><td>_CB714136CE2B965AD19A7B7BB55F90B9</td><td>0</td><td>*\shell\scigit</td><td>MultiSelectModel</td><td>Single</td><td>ISX_DEFAULTCOMPONENT</td><td/></row>
-		<row><td>_D4B4DCA36285BB8B321251AE632787BE</td><td>0</td><td>*\shell\scigit\shell\versions\command</td><td/><td>#%"[INSTALLDIR]SciGit-Client.exe" --versions "%1"</td><td>ISX_DEFAULTCOMPONENT</td><td/></row>
+		<row><td>_D4B4DCA36285BB8B321251AE632787BE</td><td>0</td><td>*\shell\scigit\shell\versions\command</td><td/><td>#%"[INSTALLDIR]SciGit.exe" --versions "%1"</td><td>ISX_DEFAULTCOMPONENT</td><td/></row>
 		<row><td>_FB2A9C917403BB7B0C21CDA8A3C97CD2</td><td>0</td><td>*\shell\scigit</td><td>subcommands</td><td/><td>ISX_DEFAULTCOMPONENT</td><td/></row>
 	</table>
 
@@ -4866,7 +4873,7 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<col def="s72">DirProperty</col>
 		<col def="i2">InstallMode</col>
 		<row><td>NewShortcut1</td><td>ISX_DEFAULTCOMPONENT</td><td/><td>scigit</td><td>2</td></row>
-		<row><td>SciGit_Client.exe</td><td>SciGit_Client.exe</td><td/><td>scigit</td><td>2</td></row>
+		<row><td>NewShortcut2</td><td>SciGit.exe</td><td/><td>scigit</td><td>2</td></row>
 	</table>
 
 	<table name="RemoveIniFile">
@@ -4953,8 +4960,9 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<col def="S255">ISShortcutName</col>
 		<col def="I4">ISAttributes</col>
 		<row><td>NewShortcut1</td><td>scigit</td><td>##ID_STRING5##</td><td>ISX_DEFAULTCOMPONENT</td><td>[SystemFolder]MsiExec.exe</td><td>/x [ProductCode]</td><td/><td/><td>NewShortcut1_E4AEF5C90767412497B4645CCB841385.exe</td><td>0</td><td>1</td><td/><td/><td/><td/><td/><td/><td/><td/></row>
-		<row><td>SciGit_Client.exe</td><td>scigit</td><td>##IDS_SHORTCUT_DISPLAY_NAME212##</td><td>SciGit_Client.exe</td><td>AlwaysInstall</td><td/><td/><td/><td>SciGit_Client.exe_173617F3C21B43429B27A8B6F28EB2AD.exe</td><td>1</td><td>1</td><td>INSTALLDIR</td><td/><td/><td/><td/><td/><td/><td/></row>
-		<row><td>SciGit_Client.exe1</td><td>DesktopFolder</td><td>##IDS_SHORTCUT_DISPLAY_NAME212##</td><td>SciGit_Client.exe</td><td>AlwaysInstall</td><td/><td/><td/><td>SciGit_Client.exe1_B3F392045F4D4E6386605071A926A2DD.exe</td><td>1</td><td>1</td><td>INSTALLDIR</td><td/><td/><td/><td/><td/><td/><td/></row>
+		<row><td>NewShortcut2</td><td>scigit</td><td>##ID_STRING7##</td><td>SciGit.exe</td><td>[INSTALLDIR]SciGit.exe</td><td/><td/><td/><td>NewShortcut2_E770E7EFF20E47418E783E43068EE649.exe</td><td>1</td><td>1</td><td/><td/><td/><td/><td/><td/><td/><td/></row>
+		<row><td>NewShortcut21</td><td>DesktopFolder</td><td>##ID_STRING7##</td><td>SciGit.exe</td><td>[INSTALLDIR]SciGit.exe</td><td/><td/><td/><td>NewShortcut21_44A3F558E5D4433689E54E0F2F48F111.exe</td><td>1</td><td>1</td><td/><td/><td/><td/><td/><td/><td/><td/></row>
+		<row><td>NewShortcut3</td><td>DesktopFolder</td><td>##ID_STRING9##</td><td>SciGit.exe</td><td>[INSTALLDIR]SciGit.exe</td><td/><td/><td/><td>NewShortcut3_447DE430DDC449EF9F69A474CE45DCBF.exe</td><td>1</td><td>1</td><td/><td/><td/><td/><td/><td/><td/><td/></row>
 	</table>
 
 	<table name="Signature">
