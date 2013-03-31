@@ -348,7 +348,6 @@
 		<row><td>ISX_DEFAULTCOMPONENT</td><td>{58F37D45-8F3B-4637-B206-8B17BD2ADE10}</td><td>INSTALLDIR</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISX_DEFAULTCOMPONENT1</td><td>{07BA55AA-1D68-4A96-9C8C-8DC0E3A5C736}</td><td>ProgramFilesFolder</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>SciGit.exe</td><td>{73E373A2-830F-4D66-B0FA-A3167EECA75F}</td><td>INSTALLDIR</td><td>2</td><td/><td>scigit.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>SciGit_Filter.dll</td><td>{A6384237-E608-4936-8773-8C43A09648C8}</td><td>INSTALLDIR</td><td>2</td><td/><td>scigit_filter.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>WORDPIA.DLL</td><td>{D4A7AFEF-96F9-49DD-AA79-FBCFCD2C02EA}</td><td>INSTALLDIR</td><td>2</td><td/><td>wordpia.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>log4net.dll</td><td>{1EECB160-B88A-4E2B-BDF8-832A9E7AB08D}</td><td>INSTALLDIR</td><td>2</td><td/><td>log4net.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 	</table>
@@ -1886,7 +1885,6 @@
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT</td></row>
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT1</td></row>
 		<row><td>AlwaysInstall</td><td>SciGit.exe</td></row>
-		<row><td>AlwaysInstall</td><td>SciGit_Filter.dll</td></row>
 		<row><td>AlwaysInstall</td><td>WORDPIA.DLL</td></row>
 		<row><td>AlwaysInstall</td><td>log4net.dll</td></row>
 	</table>
@@ -1906,7 +1904,6 @@
 		<row><td>diffplex.dll</td><td>DiffPlex.dll</td><td>DiffPlex.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Hanson\Documents\GitHub\scigit-client\SciGit-Client\bin\Release\DiffPlex.dll</td><td>1</td><td/></row>
 		<row><td>log4net.dll</td><td>log4net.dll</td><td>log4net.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Hanson\Documents\GitHub\scigit-client\SciGit-Client\bin\Release\log4net.dll</td><td>1</td><td/></row>
 		<row><td>scigit.exe</td><td>SciGit.exe</td><td>SciGit.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Hanson\Documents\GitHub\scigit-client\SciGit-Client\bin\Release\SciGit.exe</td><td>1</td><td/></row>
-		<row><td>scigit_filter.dll</td><td>SciGit_Filter.dll</td><td>SCIGIT~1.DLL|SciGit-Filter.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Hanson\Documents\GitHub\scigit-client\SciGit-Client\bin\Release\SciGit-Filter.dll</td><td>1</td><td/></row>
 		<row><td>wordpia.dll</td><td>WORDPIA.DLL</td><td>WORDPIA.DLL</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Hanson\Documents\GitHub\scigit-client\Libraries\WORDPIA.DLL</td><td>1</td><td/></row>
 	</table>
 
@@ -2169,7 +2166,6 @@
 		<row><td>ISX_DEFAULTCOMPONENT</td><td/><td/><td>_18DE97B7_D227_4124_84F8_CB3677E41B34_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT1</td><td/><td/><td>_8DFBB8C2_809B_47DB_B86F_2104E2199D90_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>SciGit.exe</td><td/><td/><td>_EB7AF0A3_32D1_43AD_B77F_7839EA669839_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>SciGit_Filter.dll</td><td/><td/><td>_C7000B22_36AB_43F6_AE75_E2835CE0E5B0_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>WORDPIA.DLL</td><td/><td/><td>_B299C70D_5395_45EC_8680_C031100DD6BD_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>log4net.dll</td><td/><td/><td>_01F15F33_E03C_4F68_B07E_CECBDD65953A_FILTER</td><td/><td/><td/><td/></row>
 	</table>
@@ -4378,7 +4374,7 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>ISTheme</td><td>Classic.theme</td></row>
 		<row><td>ISUSLock</td><td>{4DAB89E6-63D5-49E5-B066-47572B8E50E4}</td></row>
 		<row><td>ISUSSignature</td><td>{44D8C22D-BCF8-4F59-AF64-1FDACFF7B771}</td></row>
-		<row><td>ISVisitedViews</td><td>viewAssistant,viewISToday,viewRegistry,viewUI,viewTextMessages,viewProject,viewAppFiles,viewObjects,viewFeatureFiles,viewRealSetupDesign,viewShortcuts,viewBillboards,viewSystemSearch,viewInstallScriptStd,viewSupportFiles,viewRelease,viewDesignPatches,viewUpgradePaths,viewUpdateService,viewDependencies,viewCustomActions,viewEnvironmentVariables,viewIniFiles,viewAppV,viewSQLServer</td></row>
+		<row><td>ISVisitedViews</td><td>viewAssistant,viewISToday,viewRegistry,viewUI,viewTextMessages,viewProject,viewAppFiles,viewObjects,viewFeatureFiles,viewRealSetupDesign,viewShortcuts,viewBillboards,viewSystemSearch,viewInstallScriptStd,viewSupportFiles,viewRelease,viewDesignPatches,viewUpgradePaths,viewUpdateService,viewDependencies,viewCustomActions,viewEnvironmentVariables,viewIniFiles,viewAppV,viewSQLServer,viewSetupDesign</td></row>
 		<row><td>Limited</td><td>1</td></row>
 		<row><td>LockPermissionMode</td><td>1</td></row>
 		<row><td>MsiExecCmdLineOptions</td><td/></row>
